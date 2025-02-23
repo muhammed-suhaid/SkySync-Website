@@ -26,6 +26,14 @@ body {
   margin: 20px 0;
 }
 
+.weather-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 /* Glassmorphism effect for the container */
 .weather-container {
   padding: 20px;
@@ -36,7 +44,7 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  margin: 20px auto;
+  margin: 20px 0;
 }
 
 /* Glassmorphic Input and button */
