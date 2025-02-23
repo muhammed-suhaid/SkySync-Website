@@ -1,22 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url('background.jpg') no-repeat center center/cover;
+}
+
+/* Hide scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
-  }
-  
-  .weather-container {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    display: inline-block;
-    background-color: #f9f9f9;
-    margin-top: 20px;
-  }
-  
-  input,
-  button {
-    padding: 10px;
-    margin: 5px;
-    font-size: 16px;
-  }
-  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Glassmorphism effect for the container */
+.weather-container {
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+/* Glassmorphic Input and button */
+input, button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #535353;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* Placeholder Text */
+input::placeholder {
+  color: #555;
+  opacity: 0.8;
+}
+
+/* Hover Effect for Button */
+button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
