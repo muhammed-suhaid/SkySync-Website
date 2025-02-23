@@ -23,6 +23,10 @@ SkySync is a weather website that delivers real-time weather updates based on th
 
 ### Explore the source code of SkySync app on GitHub : [SkySync](https://github.com/muhammed-suhaid/SkySync.git)
 
+### SkySync Website : 
+![image](https://github.com/user-attachments/assets/c28d96a4-c13c-487c-b668-edddd20da399)
+
+
 
 
 
