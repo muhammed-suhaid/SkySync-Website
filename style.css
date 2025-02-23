@@ -1,11 +1,12 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
   overflow-x: hidden;
   font-family: Arial, sans-serif;
   text-align: center;
-  background: url('background.jpg') no-repeat center center/cover;
+  background: url("background.jpg") no-repeat center center/cover;
 }
 
 /* Hide scrollbar */
@@ -15,6 +16,14 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.site-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
 }
 
 /* Glassmorphism effect for the container */
@@ -31,7 +40,8 @@ body {
 }
 
 /* Glassmorphic Input and button */
-input, button {
+input,
+button {
   padding: 10px 20px;
   margin: 5px;
   font-size: 16px;
