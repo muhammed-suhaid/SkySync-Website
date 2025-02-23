@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SkySync</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>SkySync</h1>
+    <input type="text" id="city" placeholder="Enter city name" />
+    <button onclick="fetchWeather()">Get Weather</button>
+
+    <div class="weather-container" id="weather-info" style="display: none">
+      <p>
+        <strong>Temperature:</strong> <span id="temperature">Loading...</span>°C
+      </p>
+      <p><strong>Weather:</strong> <span id="weather">Loading...</span></p>
+      <p><strong>Humidity:</strong> <span id="humidity">Loading...</span>%</p>
+      <p><strong>Wind Speed:</strong> <span id="wind">Loading...</span> m/s</p>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
